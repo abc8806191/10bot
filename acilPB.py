@@ -2859,7 +2859,7 @@ def bot(op):
                 acil.sendText(msg.to,van) 
                 
             elif "Getvid @" in msg.text:
-                print "[Command]dp executing"
+                print ("[Command]dp executing")
                 _name = msg.text.replace("Getvid @","")
                 _nametarget = _name.rstrip('  ')
                 gs = acil.getGroup(msg.to)
@@ -2877,7 +2877,7 @@ def bot(op):
                             acil.sendVideoWithURL(msg.to, path)
                         except Exception as e:
                             raise e
-                print "[Command]dp executed"
+                print ("[Command]dp executed")
             elif "Getcontact" in msg.text:
                 key = eval(msg.contentMetadata["MENTION"])
                 key1 = key["MENTIONEES"][0]["M"]                
@@ -2952,7 +2952,7 @@ def bot(op):
                     wait2['readMember'][msg.to] = ""
                     wait2['setTime'][msg.to] = datetime.strftime(now2,"%H:%M")
                     wait2['ROM'][msg.to] = {}
-                    print wait2
+                    print ("wait2")
 
             elif 'copy ' in msg.text.lower():
                 if msg.toType == 2:
@@ -2990,7 +2990,7 @@ def bot(op):
                         acil.sendText(msg.to,"Done")
 
             elif "Urlpict @" in msg.text:
-                print "[Command]dp executing"
+                print ("[Command]dp executing")
                 _name = msg.text.replace("Urlpict @","")
                 _nametarget = _name.rstrip(' ')
                 gs = acil.getGroup(msg.to)
@@ -3008,9 +3008,9 @@ def bot(op):
                             acil.sendText(msg.to, path)
                         except Exception as e:
                             raise e
-                print "[Command]dp executed"
+                print ("[Command]dp executed")
             elif "Urlcover @" in msg.text:
-                print "[Command]cover executing"
+                print ("[Command]cover executing")
                 _name = msg.text.replace("Urlcover @","")
                 _nametarget = _name.rstrip(' ')
                 gs = acil.getGroup(msg.to)
@@ -3029,7 +3029,7 @@ def bot(op):
                             acil.sendText(msg.to, path)
                         except Exception as e:
                             raise e
-                print "[Command]cover executed"
+                print ("[Command]cover executed")
             elif msg.text in ["Conban","Contactban","Contact ban"]:
                 if wait["blacklist"] == {}:
                     acil.sendText(msg.to,"Tidak Ada kontak blacklist")
@@ -3045,70 +3045,60 @@ def bot(op):
                         acil.sendMessage(M)
 
 #-------------------------------------------------
-	    elif "Spam @" in msg.text:
+        elif "Spam @" in msg.text:
 #	      if msg.from_ in admin:
                 _name = msg.text.replace("Spam @","")
                 _nametarget = _name.rstrip(' ')
                 gs = acil.getGroup(msg.to)
                 for g in gs.members:
                     if _nametarget == g.displayName:
-		       acil.sendText(msg.to,"Wating in progres...")
+               acil.sendText(msg.to,"Wating in progres...")
                        ki6.sendText(g.mid,"Your Account Has Been Spammed !")
                        ki2.sendText(g.mid,"Your Account Has Been Spammed !")
                        ki.sendText(g.mid,"Your Account Has Been Spammed !")
                        ki3.sendText(g.mid,"Your Account Has Been Spammed !")
-		       ki4.sendText(g.mid,"Your Account Has Been Spammed !")
+               ki4.sendText(g.mid,"Your Account Has Been Spammed !")
                        ki5.sendText(g.mid,"Your Account Has Been Spammed !")
                        ki.sendText(g.mid,"Your Account Has Been Spammed !")
                        ki6.sendText(g.mid,"Your Account Has Been Spammed !")
-		       ki2.sendText(g.mid,"Your Account Has Been Spammed !")
+               ki2.sendText(g.mid,"Your Account Has Been Spammed !")
                        ki4.sendText(g.mid,"Your Account Has Been Spammed !")
                        ki.sendText(g.mid,"Your Account Has Been Spammed !")
                        ki3.sendText(g.mid,"Your Account Has Been Spammed !")
-	  	       ki6.sendText(g.mid,"Your Account Has Been Spammed !")
+               ki6.sendText(g.mid,"Your Account Has Been Spammed !")
                        ki2.sendText(g.mid,"Your Account Has Been Spammed !")
                        ki4.sendText(g.mid,"Your Account Has Been Spammed !")
                        ki5.sendText(g.mid,"Your Account Has Been Spammed !")
-		       ki4.sendText(g.mid,"Your Account Has Been Spammed !")
+               ki4.sendText(g.mid,"Your Account Has Been Spammed !")
                        ki2.sendText(g.mid,"Your Account Has Been Spammed !")
                        ki6.sendText(g.mid,"Your Account Has Been Spammed !")
                        ki3.sendText(g.mid,"Your Account Has Been Spammed !")
-		       ki6.sendText(g.mid,"Your Account Has Been Spammed !")
-		       ki2.sendText(g.mid,"Your Account Has Been Spammed !")
+               ki6.sendText(g.mid,"Your Account Has Been Spammed !")
+               ki2.sendText(g.mid,"Your Account Has Been Spammed !")
                        ki.sendText(g.mid,"Your Account Has Been Spammed !")
-		       ki3.sendText(g.mid,"Your Account Has Been Spammed !")
+               ki3.sendText(g.mid,"Your Account Has Been Spammed !")
                        ki4.sendText(g.mid,"Your Account Has Been Spammed !")
                        ki5.sendText(g.mid,"Your Account Has Been Spammed !")
                        ki2.sendText(g.mid,"Your Account Has Been Spammed !")
-		       ki3.sendText(g.mid,"Your Account Has Been Spammed !")
+               ki3.sendText(g.mid,"Your Account Has Been Spammed !")
                        ki5.sendText(g.mid,"Your Account Has Been Spammed !")
-		       ki.sendText(g.mid,"Your Account Has Been Spammed !")
+               ki.sendText(g.mid,"Your Account Has Been Spammed !")
                        ki.sendText(g.mid,"Your Account Has Been Spammed !")
-		       ki3.sendText(g.mid,"Your Account Has Been Spammed !")
+               ki3.sendText(g.mid,"Your Account Has Been Spammed !")
                        ki6.sendText(g.mid,"Your Account Has Been Spammed !")
                        ki2.sendText(g.mid,"Your Account Has Been Spammed !")
                        ki4.sendText(g.mid,"Your Account Has Been Spammed !")
-		       ki5.sendText(g.mid,"Your Account Has Been Spammed !")
-		       ki4.sendText(g.mid,"Your Account Has Been Spammed !")
+               ki5.sendText(g.mid,"Your Account Has Been Spammed !")
+               ki4.sendText(g.mid,"Your Account Has Been Spammed !")
                        ki6.sendText(g.mid,"Your Account Has Been Spammed !")
-		       ki5.sendText(g.mid,"Your Account Has Been Spammed !")
-		       ki2.sendText(g.mid,"Your Account Has Been Spammed !")
+               ki5.sendText(g.mid,"Your Account Has Been Spammed !")
+               ki2.sendText(g.mid,"Your Account Has Been Spammed !")
                        ki2.sendText(g.mid,"Your Account Has Been Spammed !")
                        ki.sendText(g.mid,"Your Account Has Been Spammed !")
-		       ki3.sendText(g.mid,"Your Account Has Been Spammed !")
+               ki3.sendText(g.mid,"Your Account Has Been Spammed !")
                        ki6.sendText(g.mid,"Your Account Has Been Spammed !")
                        ki2.sendText(g.mid,"Your Account Has Been Spammed !")
-		       ki4.sendText(g.mid,"Your Account Has Been Spammed !")
-                       ki.sendText(g.mid,"Your Account Has Been Spammed !")
-                       ki2.sendText(g.mid,"Your Account Has Been Spammed !")
-                       ki3.sendText(g.mid,"Your Account Has Been Spammed !")
-                       ki4.sendText(g.mid,"Your Account Has Been Spammed !")
-                       ki5.sendText(g.mid,"Your Account Has Been Spammed !")
-                       ki6.sendText(g.mid,"Your Account Has Been Spammed !")
-                       ki7.sendText(g.mid,"Your Account Has Been Spammed !")
-                       ki8.sendText(g.mid,"Your Account Has Been Spammed !")
-                       ki9.sendText(g.mid,"Your Account Has Been Spammed !")
-                       ki10.sendText(g.mid,"Your Account Has Been Spammed !")
+               ki4.sendText(g.mid,"Your Account Has Been Spammed !")
                        ki.sendText(g.mid,"Your Account Has Been Spammed !")
                        ki2.sendText(g.mid,"Your Account Has Been Spammed !")
                        ki3.sendText(g.mid,"Your Account Has Been Spammed !")
@@ -3139,7 +3129,17 @@ def bot(op):
                        ki8.sendText(g.mid,"Your Account Has Been Spammed !")
                        ki9.sendText(g.mid,"Your Account Has Been Spammed !")
                        ki10.sendText(g.mid,"Your Account Has Been Spammed !")
-		       ki6.sendText(g.mid,"Your Account Has Been Spammed !")
+                       ki.sendText(g.mid,"Your Account Has Been Spammed !")
+                       ki2.sendText(g.mid,"Your Account Has Been Spammed !")
+                       ki3.sendText(g.mid,"Your Account Has Been Spammed !")
+                       ki4.sendText(g.mid,"Your Account Has Been Spammed !")
+                       ki5.sendText(g.mid,"Your Account Has Been Spammed !")
+                       ki6.sendText(g.mid,"Your Account Has Been Spammed !")
+                       ki7.sendText(g.mid,"Your Account Has Been Spammed !")
+                       ki8.sendText(g.mid,"Your Account Has Been Spammed !")
+                       ki9.sendText(g.mid,"Your Account Has Been Spammed !")
+                       ki10.sendText(g.mid,"Your Account Has Been Spammed !")
+               ki6.sendText(g.mid,"Your Account Has Been Spammed !")
                        ki.sendText(g.mid,"Your Account Has Been Spammed !")
                        ki2.sendText(g.mid,"Your Account Has Been Spammed !")
                        ki3.sendText(g.mid,"Your Account Has Been Spammed !")
@@ -3171,7 +3171,7 @@ def bot(op):
                        ki9.sendText(g.mid,"Your Account Has Been Spammed !")
                        ki10.sendText(g.mid,"Your Account Has Been Spammed !")
                        acil.sendText(msg.to, "Succes")
-                       print " Spammed !"
+                       print (" Spammed !")
 #--------------------------------------------------------------------------
 #-----------------------------------------------------------
             elif "Mban:" in msg.text:
