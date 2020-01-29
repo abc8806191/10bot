@@ -3174,19 +3174,19 @@ def bot(op):
                        print (" Spammed !")
 #--------------------------------------------------------------------------
 #-----------------------------------------------------------
-            elif "Mban:" in msg.text:
+            elif ("Mban:" in msg.text):
                 midd = msg.text.replace("Mban:","")
                 wait["blacklist"][midd] = True
         acil.sendText(msg.to,"Target Lock")
 #-----------------------------------------------------------
-            elif "#leave" in msg.text:
+            elif ("#leave" in msg.text):
                 try:
                     import sys
                     sys.exit()
                 except:
                     pass
 #-----------------------------------------------------------
-            elif "Spam " in msg.text:
+            elif ("Spam " in msg.text):
                 txt = msg.text.split(" ")
                 jmlh = int(txt[2])
                 text = msg.text.replace("Spam "+str(txt[1])+" "+str(jmlh)+" ","")
