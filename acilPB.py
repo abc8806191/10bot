@@ -1085,7 +1085,7 @@ def bot(op):
                   for mi_d in Bots:
                       mc += "★" +acil.getContact(mi_d).displayName + "\n"
                   acil.sendText(msg.to,mc)
-                  print "[Command]Friendlist executed"                    
+                  print ("[Command]Friendlist executed")                    
             elif "Youinfo" in msg.text:
                 key = eval(msg.contentMetadata["MENTION"])
                 key1 = key["MENTIONEES"][0]["M"]
@@ -1162,8 +1162,8 @@ def bot(op):
                     b = urllib.quote(a)
                     acil.sendText(msg.to,"Searching google..")
                     acil.sendText(msg.to, "Search: "+b+"\nsuccess: http://google.com/" +b)
-	    elif "Xvideos " in msg.text:
-		    a = msg.text.replace("Xvideos ","")
+        elif "Xvideos " in msg.text:
+            a = msg.text.replace("Xvideos ","")
                     b = urllib.quote(a)
                     acil.sendText(msg.to,"Searching ....\n" "Type:Search Xvideos\nStatus: Processing")
                     acil.sendText(msg.to, "{ Xvideos search page }\n\nTitle: "+b+"\nSource : Xvideos\nhttp://xvideos.com/?k=" +b)
