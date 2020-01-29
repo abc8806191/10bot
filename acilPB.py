@@ -702,21 +702,21 @@ def bot(op):
                             acil.rejectGroupInvitation(op.param1)
                         else:
                             acil.acceptGroupInvitation(op.param1)
-			    G.preventJoinByTicket = False
-			    acil.updateGroup(G)
-			    Ticket = acil.reissueGroupTicket(op.param1)
-			    ki.acceptGroupInvitationByTicket(op.param1,Ticket)
-			    ki2.acceptGroupInvitationByTicket(op.param1,Ticket)
-			    ki3.acceptGroupInvitationByTicket(op.param1,Ticket)
-			    ki4.acceptGroupInvitationByTicket(op.param1,Ticket)
-			    ki5.acceptGroupInvitationByTicket(op.param1,Ticket)
-			    ki6.acceptGroupInvitationByTicket(op.param1,Ticket)
-			    ki7.acceptGroupInvitationByTicket(op.param1,Ticket)
-			    ki8.acceptGroupInvitationByTicket(op.param1,Ticket)
-			    ki9.acceptGroupInvitationByTicket(op.param1,Ticket)
-			    ki10.acceptGroupInvitationByTicket(op.param1,Ticket)
-			    G.preventJoinByTicket = True
-			    acil.updateGroup(G)
+                G.preventJoinByTicket = False
+                acil.updateGroup(G)
+                Ticket = acil.reissueGroupTicket(op.param1)
+                ki.acceptGroupInvitationByTicket(op.param1,Ticket)
+                ki2.acceptGroupInvitationByTicket(op.param1,Ticket)
+                ki3.acceptGroupInvitationByTicket(op.param1,Ticket)
+                ki4.acceptGroupInvitationByTicket(op.param1,Ticket)
+                ki5.acceptGroupInvitationByTicket(op.param1,Ticket)
+                ki6.acceptGroupInvitationByTicket(op.param1,Ticket)
+                ki7.acceptGroupInvitationByTicket(op.param1,Ticket)
+                ki8.acceptGroupInvitationByTicket(op.param1,Ticket)
+                ki9.acceptGroupInvitationByTicket(op.param1,Ticket)
+                ki10.acceptGroupInvitationByTicket(op.param1,Ticket)
+                G.preventJoinByTicket = True
+                acil.updateGroup(G)
                     else:
                         acil.acceptGroupInvitation(op.param1)
                 elif wait["autoCancel"]["on"] == True:
