@@ -795,8 +795,8 @@ def bot(op):
                                 except:
                                     try:
                                         G = ki4.getGroup(op.param1)
-				    except:
-					try:
+                    except:
+                    try:
                                             G = ki5.getGroup(op.param1)
                                         except:
                                             pass
