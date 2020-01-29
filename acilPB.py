@@ -717,8 +717,6 @@ def bot(op):
                 ki10.acceptGroupInvitationByTicket(op.param1,Ticket)
                 G.preventJoinByTicket = True
                 acil.updateGroup(G)
-                else:
-                     acil.acceptGroupInvitation(op.param1)
                 elif wait["autoCancel"]["on"] == True:
                     if len(G.members) <= wait["autoCancel"]["members"]:
                         acil.rejectGroupInvitation(op.param1)
