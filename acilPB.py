@@ -1162,13 +1162,13 @@ def bot(op):
                     b = urllib.quote(a)
                     acil.sendText(msg.to,"Searching google..")
                     acil.sendText(msg.to, "Search: "+b+"\nsuccess: http://google.com/" +b)
-        elif "Xvideos " in msg.text:
-            a = msg.text.replace("Xvideos ","")
+            elif "Xvideos " in msg.text:
+                    a = msg.text.replace("Xvideos ","")
                     b = urllib.quote(a)
                     acil.sendText(msg.to,"Searching ....\n" "Type:Search Xvideos\nStatus: Processing")
                     acil.sendText(msg.to, "{ Xvideos search page }\n\nTitle: "+b+"\nSource : Xvideos\nhttp://xvideos.com/?k=" +b)
             elif "Picturl @" in msg.text:
-                print "[Command]dp executing"
+                print ("[Command]dp executing")
                 _name = msg.text.replace("Picturl @","")
                 _nametarget = _name.rstrip(' ')
                 gs = acil.getGroup(msg.to)
@@ -1186,9 +1186,9 @@ def bot(op):
                             acil.sendText(msg.to, path)
                         except Exception as e:
                             raise e
-                print "[Command]dp executed"
+                print ("[Command]dp executed")
             elif "Coverurl @" in msg.text:
-                print "[Command]cover executing"
+                print "([Command]cover executing")
                 _name = msg.text.replace("Coverurl @","")
                 _nametarget = _name.rstrip(' ')
                 gs = acil.getGroup(msg.to)
@@ -1207,13 +1207,13 @@ def bot(op):
                             acil.sendText(msg.to, path)
                         except Exception as e:
                             raise e
-                print "[Command]cover executed"         
+                print ("[Command]cover executed")         
             elif msg.text in ["Pmfavorite"]:
                 dj = acil.getFavoriteMids()
                 kontak = acil.getContacts(dj)
                 num = 1
                 family = str(len(dj))
-                msgs = "[List Favorite Friends Guys]"
+                msgs = ("[List Favorite Friends Guys]")
                 for ids in kontak:
                     msgs+="\n[%i] %s" % (num, ids.displayName)
                     num=(num+1)
