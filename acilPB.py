@@ -1188,7 +1188,7 @@ def bot(op):
                             raise e
                 print ("[Command]dp executed")
             elif "Coverurl @" in msg.text:
-                print "([Command]cover executing")
+                print ("[Command]cover executing")
                 _name = msg.text.replace("Coverurl @","")
                 _nametarget = _name.rstrip(' ')
                 gs = acil.getGroup(msg.to)
@@ -1456,22 +1456,22 @@ def bot(op):
                 msg.text = None
                 ki10.sendMessage(msg)
             elif msg.text in ["Spam gift"]:
-				#if msg.from_ in admin:
-					msg.contentType = 9
-					msg.contentMetadata={'PRDID': 'a0768339-c2d3-4189-9653-2909e9bb6f58',
-										'PRDTYPE': 'THEME',
-										'MSGTPL': '12'}
-					msg.text = None
-					ki.sendMessage(msg)
-					ki2.sendMessage(msg)
-					ki3.sendMessage(msg)
-					ki4.sendMessage(msg)
-					ki5.sendMessage(msg)
-					ki6.sendMessage(msg)
-					ki7.sendMessage(msg)
-					ki8.sendMessage(msg)
-					ki9.sendMessage(msg)
-					ki10.sendMessage(msg)
+                    #if msg.from_ in admin:
+                    msg.contentType = 9
+                    msg.contentMetadata={'PRDID': 'a0768339-c2d3-4189-9653-2909e9bb6f58',
+                                        'PRDTYPE': 'THEME',
+                                        'MSGTPL': '12'}
+                    msg.text = None
+                    ki.sendMessage(msg)
+                    ki2.sendMessage(msg)
+                    ki3.sendMessage(msg)
+                    ki4.sendMessage(msg)
+                    ki5.sendMessage(msg)
+                    ki6.sendMessage(msg)
+                    ki7.sendMessage(msg)
+                    ki8.sendMessage(msg)
+                    ki9.sendMessage(msg)
+                    ki10.sendMessage(msg)
             elif msg.text in ["Clink"]:
                 if msg.toType == 2:
                     group = acil.getGroup(msg.to)
