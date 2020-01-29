@@ -19,43 +19,43 @@ else:
     import urllib.request
     import urllib.parse
 acil = PRANKBOTS.LINE()
-acil.login(token="")
+acil.login(token="ENB5GnSlVPfo9yxePnEc.za3+ZjFkdwx4tkMsS55p3a.pNBX3G5BOskb1p7uZ6ccnLX4v02ffs6SJVOtZpwo7Js=")
 acil.loginResult()
 ki = PRANKBOTS.LINE()
-ki.login(token="")
+ki.login(token="EN7yezBSHf6rbeWX2DQb.O3gM/8W+lhDUWsy/dxrCUW./KqENZGdbS6jCXL9/csYrDiWx+atsUI9TNtDYNA42T8=")
 ki.loginResult()
 ki2= PRANKBOTS.LINE()
-ki2.login(token="")
+ki2.login(token="ENmK4EkDyqBeUyPVF1Y1.6dg+OADJcZqj0Eao0Y02iq.kAii+yvI/OT0HP5+SE7Yboww5TJh0jjyTdpRw2nIyI8=")
 ki2.loginResult()
 ki3 = PRANKBOTS.LINE()
-ki3.login(token="")
+ki3.login(token="EN8afrJ1bAco3yx1mJ02.ooURt8DAWMpy+5vsoJ0JqG.lAHw9ZL6nYKFlA0o+DWMJBahIvKLG9MYYLY8+dv9h/g=")
 ki3.loginResult()
 ki4 = PRANKBOTS.LINE()
-ki4.login(token="")
+ki4.login(token="EN2H3QkUsShdDYCz5mOb.prRZLwJqPCmMfE5IXSxJAW.8MD1eUxBFdPTQF6IlMYOdOxQYBfz7e51y4Z5byxRRR0=")
 ki4.loginResult()
 ki5 = PRANKBOTS.LINE()
-ki5.login(token="")
+ki5.login(token="ENYo3GuxdzKqrEyMWlac.3eFmkgPriPKsRz7omolaVa.CjYzVK6jVKLI7OslFoxbVSbm9L7Soh/mZtWeUC8Emfs=")
 ki5.loginResult()
 ki6 = PRANKBOTS.LINE()
-ki6.login(token="")
+ki6.login(token="END2YaEUCtQ7Lp02c1S0.TQuvGUe+OXXocehvIoIIKa.jPdpXVwhy0SduXaEchNc7z+leeXcatvTXYl+1hy34WE=")
 ki6.loginResult()
 ki7 = PRANKBOTS.LINE()
-ki7.login(token="")
+ki7.login(token="ENgSKEEFgfrmdnFGQbQa.DXFKn4YysjJz53/2ow+nkG.rdT6PiLioXS9sbX0RwSgOWV1xic36CJfhWDFysU5XNg=")
 ki7.loginResult()
 ki8 = PRANKBOTS.LINE()
-ki8.login(token="")
+ki8.login(token="ENEyxoOBd5NcSVZHPfJc.89ygu6799+QVSkkKJ8FV+a.WpjE+Bgn3covmnYUVSFOPOh4jKwjSzOrC8hqIcLt4aE=")
 ki8.loginResult()
 ki9 = PRANKBOTS.LINE()
-ki9.login(token="")
+ki9.login(token="ENChfNjjbHdI2L0h2nEe.DPb0VWc+lxIi+i5T4WVCBG.ExWDQFfT+AmSUv+hsJ1xGzk9uHxiga9D0tJpYdKviBo=")
 ki9.loginResult()
 ki10 = PRANKBOTS.LINE()
-ki10.login(token="")
+ki10.login(token="ENED2zeV1FiQ0augucc8.+Es3tzQcdLmg7lYXW5GFIa.o2hzijbEnTrLNeA0nAbIKkMFyfHGWXt4Q/ZH41d1xGg=")
 ki10.loginResult()
-print "login success"
+print ("login success")
 reload(sys)
 sys.setdefaultencoding('utf-8')
-helpMessage="""(╣••℘̰̰̈́ґ̰̰̈́∂̰̰̈́η̰̰̈́к̰̰̈́ ̰в̰̰̈́❍̰̰̈́т̰̰̈́ѕ̰̰̈́••╣)
-╔═B༘̈́̈́L༘̈́̈́Ä༘́̈́C༘̈́̈́K༘̈́̈́   ̈́Ö༘́̈́F༘̈́̈́ ̈́  G༘̈́̈́Ä༘́̈́M༘̈́̈́Ë༘́̈́R༘̈́̈́═╗
+helpMessage="""(✰ 𝐹𝒶𝓃𝓉𝒶𝓈𝓎𝒮𝓉𝓊𝒹𝒾𝑜 ɮօt ✰)
+╔═◄]·♦·自助選單·♦·[►═╗
 ║1║ ✰ Me
 ║2║ ✰ Add
 ║3║ ✰ Gift
@@ -121,7 +121,7 @@ helpMessage="""(╣••℘̰̰̈́ґ̰̰̈́∂̰̰̈́η̰̰̈́к̰̰̈́ ̰в̰̰̈́�
 ║63║ ✰ Leaveallgroup
 ║64║ ✰ Pmfavorite
 ║65║ ✰ Broken
-║╩═══NEXT PAGE═══╦
+║╩═══下一頁═══╦
 ║🃏║ ✰ {  Media  }
 ║🇲🇨║ ✰ {Translate}
 ║⚙️║ ✰ {    Set   }
@@ -130,8 +130,8 @@ helpMessage="""(╣••℘̰̰̈́ґ̰̰̈́∂̰̰̈́η̰̰̈́к̰̰̈́ ̰в̰̰̈́�
 ║🔛║ ✰ {Setauto}
 ╚══╩════════╝
   """
-helpMedia="""(╣••℘̰̰̈́ґ̰̰̈́∂̰̰̈́η̰̰̈́к̰̰̈́ ̰в̰̰̈́❍̰̰̈́т̰̰̈́ѕ̰̰̈́••╣)
-╔═B༘̈́̈́L༘̈́̈́Ä༘́̈́C༘̈́̈́K༘̈́̈́   ̈́Ö༘́̈́F༘̈́̈́ ̈́  G༘̈́̈́Ä༘́̈́M༘̈́̈́Ë༘́̈́R༘̈́̈́═╗
+helpMedia="""(✰ 𝐹𝒶𝓃𝓉𝒶𝓈𝓎𝒮𝓉𝓊𝒹𝒾𝑜 ɮօt ✰)
+╔═◄]·♦·自助選單·♦·[►═╗
 ║╦═══MEDIA═══
 ║1║ ✰ Youtube *text*
 ║2║ ✰ Youtubesearch *user*
@@ -199,7 +199,7 @@ helpMedia="""(╣••℘̰̰̈́ґ̰̰̈́∂̰̰̈́η̰̰̈́к̰̰̈́ ̰в̰̰̈́❍
 ║╩══BROADCAST═══
 ║📩║ ✰ sendpm "text"
 ║📨║ ✰ sendgrup "text"
-║╩═══NEXT PAGE═╦
+║╩═══下一頁═╦
 ║🃏║ ✰ {  Media  }
 ║🇲🇨║ ✰ {Translate}
 ║⚙️║ ✰ {    Set   }
@@ -208,8 +208,8 @@ helpMedia="""(╣••℘̰̰̈́ґ̰̰̈́∂̰̰̈́η̰̰̈́к̰̰̈́ ̰в̰̰̈́❍
 ║🔛║ ✰ {Setauto}
 ╚══╩══════╝
 """
-helpFun = """(╣℘̰̰̈́ґ̰̰̈́∂̰̰̈́η̰̰̈́к̰̰̈́ ̰в̰̰̈́❍̰̰̈́т̰̰̈́ѕ̰̰̈́╣)
-╔═B༘̈́̈́L༘̈́̈́Ä༘́̈́C༘̈́̈́K༘̈́̈́   ̈́Ö༘́̈́F༘̈́̈́ ̈́  G༘̈́̈́Ä༘́̈́M༘̈́̈́Ë༘́̈́R༘̈́̈́═╗
+helpFun = """(✰ 𝐹𝒶𝓃𝓉𝒶𝓈𝓎𝒮𝓉𝓊𝒹𝒾𝑜 ɮօt ✰)
+╔═◄]·♦·自助選單·♦·[►═╗
 ║╦═══MEDIA═══
 ║1║ ✰ sider:*txt*
 ║2║ ✰ tagme:*txt
@@ -220,7 +220,7 @@ helpFun = """(╣℘̰̰̈́ґ̰̰̈́∂̰̰̈́η̰̰̈́к̰̰̈́ ̰в̰̰̈́❍̰̰̈́
 ║7║ ✰ STKPKGID:*stkr gid
 ║8║ ✰ STKVER:*version
 ║9║ ✰ cekresponse
-║╩══NEXT PAGE══╦
+║╩══下一頁══╦
 ║🃏║ ✰ {  Media  }
 ║🇲🇨║ ✰ {Translate}
 ║⚙️║ ✰ {    Set   }
@@ -230,7 +230,7 @@ helpFun = """(╣℘̰̰̈́ґ̰̰̈́∂̰̰̈́η̰̰̈́к̰̰̈́ ̰в̰̰̈́❍̰̰̈́
 ╚══╩══════╝
 """
 helpself="""
-╔╦═C༘֮֮O༘֮֮M༘֮֮M༘֮֮A༘֮֮N༘֮֮D༘֮֮ ֮A༘֮֮L༘֮֮L༘֮֮ ֮B༘֮֮O༘֮֮T༘֮֮S༘֮֮═╦╗
+╔╦═✰ ◄]·♦·管理員專用選單·♦·[► ✰═╦╗
 ║ ═══════════║
 ║1║ ✰ Fuck1/10 "@"
 ║2║ ✰ Kick1/10 "@"
@@ -259,7 +259,7 @@ helpself="""
 ║••℘̰̰̈́ґ̰̰̈́∂̰̰̈́η̰̰̈́к̰̰̈́ ̰в̰̰̈́❍̰̰̈́т̰̰̈́ѕ̰̰̈́••
 ╚═══════════╝
   """
-helpset="""╔(╣ S༘̏̏Ȅ༘̏T༘̏̏T༘̏̏Ȉ༘̏N༘̏̏G༘̏̏ ̏B༘̏̏Ȍ༘̏T༘̏̏S༘̏̏.╣)╗
+helpset="""╔(╣ ◄]·♦·設定機器人選單·♦·[►╣)╗
 ║ ✰ Ban:on/Unbl:on
 ║ ✰ Contact:on/off
 ║ ✰ Add:on/off
@@ -279,7 +279,7 @@ helpset="""╔(╣ S༘̏̏Ȅ༘̏T༘̏̏T༘̏̏Ȉ༘̏N༘̏̏G༘̏̏ ̏B
 ║ ✰ Read:0n/off
 ║ ✰ Like:on/off
 ║ ✰ Runtime
-║═(╣S̰֮֮Ḛ֮֮T̰֮֮T̰֮֮Ḭ֮֮N̰֮֮G̰֮֮ ֮G̰֮֮R̰֮֮O̰֮֮Ṵ֮֮P̰֮֮S̰֮֮╣)═
+║═(◄]·♦·群組專用選單·♦·[►)═
 ║ ★ Pro:on/off
 ║ ★ Prolink:on/off
 ║ ★ Proinvite:on/off
@@ -295,12 +295,12 @@ helpset="""╔(╣ S༘̏̏Ȅ༘̏T༘̏̏T༘̏̏Ȉ༘̏N༘̏̏G༘̏̏ ̏B
 ║🔧║ ✰ {Settings}
 ║🔛║ ✰ {Setauto}
 ╚══╩══════╝
-║ ╦═B༘̈́̈́L༘̈́̈́Ä༘́̈́C༘̈́̈́K༘̈́̈́   ̈́Ö༘́̈́F༘̈́̈́ ̈́  G༘̈́̈́Ä༘́̈́M༘̈́̈́Ë༘́̈́R༘̈́̈́═╦
+║ ╦═✰ 𝐹𝒶𝓃𝓉𝒶𝓈𝓎𝒮𝓉𝓊𝒹𝒾𝑜 ɮօt ✰ ═╦
 ╚═•℘̰̰̈́ґ̰̰̈́∂̰̰̈́η̰̰̈́к̰̰̈́ ̰в̰̰̈́❍̰̰̈́т̰̰̈́ѕ̰̰̈́•╝
 """
 translateMessage ="""
 ╔══════════
-║(╣℘̰̰̈́ґ̰̰̈́∂̰̰̈́η̰̰̈́к̰̰̈́ ̰в̰̰̈́❍̰̰̈́т̰̰̈́ѕ̰̰̈́╣)
+║(✰ 𝐹𝒶𝓃𝓉𝒶𝓈𝓎𝒮𝓉𝓊𝒹𝒾𝑜 ɮօt ✰ )
 ║╔═════════
 ║══════════
 ║✰║ Afrika/
@@ -353,7 +353,7 @@ translateMessage ="""
 ║✰║ Ukrainian/
 ║✰║ Vietnam/
 ║✰║  Welsh/
-║╩═══NEXT PAGE═╦
+║╩═══下一頁═╦
 ║🃏║ ✰ {  Media  }
 ║🇲🇨║ ✰ {Translate}
 ║⚙️║ ✰ {    Set   }
