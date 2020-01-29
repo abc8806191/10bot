@@ -2525,10 +2525,10 @@ def bot(op):
                     wait["cName"] = n
                     acil.sendText(msg.to,"Ini telah diubah✔\n\n" + n)
             elif msg.text in ["Translate"]:
-					if wait["lang"] == "JP":
-						acil.sendText(msg.to,translateMessage)
-					else:
-						acil.sendText(msg.to,helpt)
+                    if wait["lang"] == "JP":
+                        acil.sendText(msg.to,translateMessage)
+                    else:
+                        acil.sendText(msg.to,helpt)
             elif msg.text.lower() == 'update':
                 if wait["clock"] == True:
                     now2 = datetime.now()
