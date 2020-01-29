@@ -717,9 +717,6 @@ def bot(op):
                 ki10.acceptGroupInvitationByTicket(op.param1,Ticket)
                 G.preventJoinByTicket = True
                 acil.updateGroup(G)
-                elif wait["autoCancel"]["on"] == True:
-                    if len(G.members) <= wait["autoCancel"]["members"]:
-                        acil.rejectGroupInvitation(op.param1)
             else:
                 Inviter = op.param3.replace(" ",',')
                 InviterX = Inviter.split(",")
