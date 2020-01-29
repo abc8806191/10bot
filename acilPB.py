@@ -795,8 +795,8 @@ def bot(op):
                                 except:
                                     try:
                                         G = ki4.getGroup(op.param1)
-                    except:
-                    try:
+                                    except:
+                                        try:
                                             G = ki5.getGroup(op.param1)
                                         except:
                                             pass
@@ -1045,28 +1045,28 @@ def bot(op):
                     for manusia in n:
                         acil.sendText(manusia, (bctxt))
             elif "Sendcontact " in msg.text:
-					bctxt = msg.text.replace("Sendcontact ", "")
-					t = ki.getAllContactIds()
-					t = ki2.getAllContactIds()
-					t = ki3.getAllContactIds()
-					t = ki4.getAllContactIds()
-					t = ki5.getAllContactIds()
-					t = ki6.getAllContactIds()
-					t = ki7.getAllContactIds()
-					t = ki8.getAllContactIds()
-					t = ki9.getAllContactIds()
-					t = ki10.getAllContactIds()
-					for manusia in t:
-						ki.sendText(manusia,(bctxt))
-						ki2.sendText(manusia,(bctxt))
-						ki3.sendText(manusia,(bctxt))
-						ki4.sendText(manusia,(bctxt))
-						ki5.sendText(manusia,(bctxt))
-						ki6.sendText(manusia,(bctxt))
-						ki7.sendText(manusia,(bctxt))
-						ki8.sendText(manusia,(bctxt))
-						ki9.sendText(manusia,(bctxt))
-						ki10.sendText(manusia,(bctxt))
+                    bctxt = msg.text.replace("Sendcontact ", "")
+                    t = ki.getAllContactIds()
+                    t = ki2.getAllContactIds()
+                    t = ki3.getAllContactIds()
+                    t = ki4.getAllContactIds()
+                    t = ki5.getAllContactIds()
+                    t = ki6.getAllContactIds()
+                    t = ki7.getAllContactIds()
+                    t = ki8.getAllContactIds()
+                    t = ki9.getAllContactIds()
+                    t = ki10.getAllContactIds()
+                    for manusia in t:
+                        ki.sendText(manusia,(bctxt))
+                        ki2.sendText(manusia,(bctxt))
+                        ki3.sendText(manusia,(bctxt))
+                        ki4.sendText(manusia,(bctxt))
+                        ki5.sendText(manusia,(bctxt))
+                        ki6.sendText(manusia,(bctxt))
+                        ki7.sendText(manusia,(bctxt))
+                        ki8.sendText(manusia,(bctxt))
+                        ki9.sendText(manusia,(bctxt))
+                        ki10.sendText(manusia,(bctxt))
             elif "Sendpm " in msg.text:
                     bctxt = msg.text.replace("Sendpm ", "")
                     t = acil.getAllContactIds()
