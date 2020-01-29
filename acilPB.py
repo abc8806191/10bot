@@ -2726,7 +2726,7 @@ def bot(op):
 #----------------------------------------------------------
             elif "Unban @" in msg.text:
                 if msg.toType == 2:
-                    print "[Unban]ok"
+                    print ("[Unban]ok")
                     _name = msg.text.replace("Unban @","")
                     _nametarget = _name.rstrip()
                     gs = acil.getGroup(msg.to)
@@ -2763,10 +2763,10 @@ def bot(op):
                        else:
                            for target in targets:
                                 try:
-									wait["blacklist"][target] = True
-									f=codecs.open('st2__b.json','w','utf-8')
-									json.dump(wait["blacklist"], f, sort_keys=True, indent=4,ensure_ascii=False)
-									acil.sendText(msg.to,"Target Locked")
+                                    wait["blacklist"][target] = True
+                                    f=codecs.open('st2__b.json','w','utf-8')
+                                    json.dump(wait["blacklist"], f, sort_keys=True, indent=4,ensure_ascii=False)
+                                    acil.sendText(msg.to,"Target Locked")
                                 except:
                                     acil.sendText(msg.to,"Error")
 
@@ -2787,10 +2787,10 @@ def bot(op):
                        else:
                            for target in targets:
                                 try:
-									del wait["blacklist"][target]
-									f=codecs.open('st2__b.json','w','utf-8')
-									json.dump(wait["blacklist"], f, sort_keys=True, indent=4,ensure_ascii=False)
-									acil.sendText(msg.to,"Target Unlocked")
+                                    del wait["blacklist"][target]
+                                    f=codecs.open('st2__b.json','w','utf-8')
+                                    json.dump(wait["blacklist"], f, sort_keys=True, indent=4,ensure_ascii=False)
+                                    acil.sendText(msg.to,"Target Unlocked")
                                 except:
                                     acil.sendText(msg.to,"Error")
             elif "Id " in msg.text:
@@ -2831,7 +2831,7 @@ def bot(op):
                 items = []
                 items = items + (_images_get_all_items(raw_html))
                 path = random.choice(items)
-                print path
+                print ("path")
                 try:
                     acil.sendImageWithURL(msg.to,path)
                 except:
