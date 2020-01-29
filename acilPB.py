@@ -3057,11 +3057,11 @@ def bot(op):
                        ki2.sendText(g.mid,"Your Account Has Been Spammed !")
                        ki.sendText(g.mid,"Your Account Has Been Spammed !")
                        ki3.sendText(g.mid,"Your Account Has Been Spammed !")
-                      ki4.sendText(g.mid,"Your Account Has Been Spammed !")
+                       ki4.sendText(g.mid,"Your Account Has Been Spammed !")
                        ki5.sendText(g.mid,"Your Account Has Been Spammed !")
                        ki.sendText(g.mid,"Your Account Has Been Spammed !")
-                      ki6.sendText(g.mid,"Your Account Has Been Spammed !")
-                      ki2.sendText(g.mid,"Your Account Has Been Spammed !")
+                       ki6.sendText(g.mid,"Your Account Has Been Spammed !")
+                       ki2.sendText(g.mid,"Your Account Has Been Spammed !")
                        ki4.sendText(g.mid,"Your Account Has Been Spammed !")
                        ki.sendText(g.mid,"Your Account Has Been Spammed !")
                        ki3.sendText(g.mid,"Your Account Has Been Spammed !")
@@ -3177,7 +3177,7 @@ def bot(op):
             elif "Mban:" in msg.text:
                 midd = msg.text.replace("Mban:","")
                 wait["blacklist"][midd] = True
-		acil.sendText(msg.to,"Target Lock")
+        acil.sendText(msg.to,"Target Lock")
 #-----------------------------------------------------------
             elif "#leave" in msg.text:
                 try:
